@@ -8,6 +8,7 @@ Programming language: Python
 - use another terminal to run ``` python client.py``` in client directory
 - under client terminal, use commands:
   - ```$ listallfiles```
+    - sdfls
 
 ### Project requirements
 - **$ listallfiles** (Request message to be typed in the client process’ terminal)
