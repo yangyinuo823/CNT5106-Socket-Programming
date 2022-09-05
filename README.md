@@ -1,6 +1,6 @@
 # CNT5106-Socket-Programming
 
-course project for computer networks CNT5106C
+course project for computer networks CNT5106C\
 Programming language: Python
 
 ### Project requirements
