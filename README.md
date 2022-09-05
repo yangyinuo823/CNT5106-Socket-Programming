@@ -5,4 +5,7 @@ Programming language: Python
 
 ### Project requirement
 - List all files in server process' current directory: Text containing the list of files must be sent via TCP
+  - Note: The server’s listing of files must be sent to the client, but then the client process must output (print) that complete listing of files on the client’s terminal
   - command: **listallfiles**
+
+- 
