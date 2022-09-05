@@ -7,9 +7,11 @@ Programming language: Python
 - use a terminal to run ```python server.py``` in server directory
 - use another terminal to run ``` python client.py``` in client directory
 - under client terminal, use commands:
-  - ```$ listallfiles```
+  - ```$ listallfiles``` 
     - List all files in server process' current directory: Text containing the list of files must be sent via TCP.
   - ```$ download filename```
+    - Download one file from the server process' current directory by name: Copy of the correct file must be sent via UDP only and stored in the client’s current directory
+    -  To avoid packet loss and congestion, I add time.sleep(0.002) for each packet sending iteration. It may take a little bit longer time to transfer for a large file.
 
 ### Project requirements
 - **$ listallfiles** (Request message to be typed in the client process’ terminal)
