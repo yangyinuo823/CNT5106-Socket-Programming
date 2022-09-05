@@ -3,6 +3,10 @@
 course project for computer networks CNT5106C\
 Programming language: Python
 
+### How to use it
+- use a terminal to run ```python server.py``` in server directory
+- 
+
 ### Project requirements
 - **$ listallfiles** (Request message to be typed in the client process’ terminal)
   - Requirement: List all files in server process' current directory: Text containing the list of files must be sent via TCP. The server’s listing of files must be sent to the client, but then the client process must output (print) that complete listing of files on the client’s terminal
