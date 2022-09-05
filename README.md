@@ -8,7 +8,8 @@ Programming language: Python
 - use another terminal to run ``` python client.py``` in client directory
 - under client terminal, use commands:
   - ```$ listallfiles```
-    - sdfls
+    - List all files in server process' current directory: Text containing the list of files must be sent via TCP.
+  - ```$ download filename```
 
 ### Project requirements
 - **$ listallfiles** (Request message to be typed in the client process’ terminal)
