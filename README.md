@@ -5,7 +5,9 @@ Programming language: Python
 
 ### How to use it
 - use a terminal to run ```python server.py``` in server directory
-- 
+- use another terminal to run ``` python client.py``` in client directory
+- under client terminal, use commands:
+  - ```$ listallfiles```
 
 ### Project requirements
 - **$ listallfiles** (Request message to be typed in the client process’ terminal)
