@@ -2,6 +2,7 @@
 
 course project for computer networks CNT5106C\
 Programming language: Python
+Project time: 2022 Apr
 
 ### How to use it
 - use a terminal to run ```python server.py``` in server directory
